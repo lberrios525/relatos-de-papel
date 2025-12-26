@@ -15,7 +15,7 @@ export const Shop = () => {
             <div className="card-body">
               <h5 class="card-title">Libros Vacios</h5>
               <p class="card-text">Sigue buscando tu libro preferido.</p>
-              <Link to="/" className="card-link ">
+              <Link to="/home" className="card-link ">
                 Ir a comprar
               </Link>
             </div>

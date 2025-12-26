@@ -196,7 +196,7 @@ export default function BookDetail() {
 
               <br />
               <div className="d-grid gap-2 d-md-flex justify-content-md-end pb-3 pe-3">
-                <Link to="/" className="btn btn-outline-primary mt-3">
+                <Link to="/home" className="btn btn-outline-primary mt-3">
                   <i className="bi bi-arrow-left"></i> Regresar al Home
                 </Link>
               </div>
