@@ -1,0 +1,22 @@
+.search-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.book-card img {
+  max-width: 100%;
+  height: auto;
+}

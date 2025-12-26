@@ -1,93 +1,16 @@
-# Proyecto Relatos de papel
+# React + Vite
 
-Este proyecto fue creado utilizando **Vite** y **React** con **JavaScript**, para realizar la actividad de la materia Desarrollo Web Full Stack. Este proyecto usa node js y npm.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🛠️ Requisitos previos
+Currently, two official plugins are available:
 
-Asegúrate de tener instalado:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- **Node.js** (versión 24.12.0)
-- **npm** (incluido con Node.js)
+## React Compiler
 
-Verifica las versiones instaladas:
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-```bash
-node -v
-npm -v
-```
+## Expanding the ESLint configuration
 
-## 🚀 Instalación
-
-### 1. Clonar el repositorio 
-
-si usa https:
-
-```
-git clone https://github.com/bryapuch/relatos-de-papel.git
-```
-
-o si usa ssh:
-```
-git clone git@github.com:bryapuch/relatos-de-papel.git
-```
-
-### 2. Acceder al repositorio
-
-```
-cd relatos-de-papel
-```
-
-### 3. Instalar las dependencias
-
-```
-npm install
-```
-
-## ▶️ Ejecución del proyecto
-
-Para iniciar el proyecto deben ejecutar el siguiente script
-```
-npm run dev
-```
-Al ejecutar el script mencionado anteriormente, se visualizara lo siguiente:
-```
- VITE v7.3.0  ready in 208 ms
-
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
-  ➜  press h + enter to show help
-```
-En el cual, la aplicacion estara disponible en el navegador usando de la linea del local
-```
-http://localhost:5173/
-```
-
-## 📦 Scripts disponibles
-- Servidor de desarrollo
-```
-npm run dev
-```
-- Build de producción
-```
-npm run build
-```
-
-### 📁 Estructura del proyecto
-
-```
-relatos-de-papel/
-├─ public/
-├─ src/
-│  ├─ assets/
-│  ├─ components/
-│  ├─ context/
-│  ├─ hooks/
-│  ├─ router/
-│  ├─ styles/
-│  ├─ views/
-│  ├─ BookApp.jsx
-│  └─ main.jsx
-├─ index.html
-├─ package.json
-└─ vite.config.js
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
